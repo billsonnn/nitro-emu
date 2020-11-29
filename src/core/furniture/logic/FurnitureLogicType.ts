@@ -1,0 +1,45 @@
+export class FurnitureLogicType
+{
+    public static FURNITURE_DEFAULT                             = 'default';
+    public static FURNITURE_EXCHANGE                            = 'exchange';
+    public static FURNITURE_ROLLER                              = 'roller';
+    public static FURNITURE_MULTIHEIGHT                         = 'multi_height';
+    public static FURNITURE_GATE                                = 'gate';
+    public static FURNITURE_STACKHELPER                         = 'stack_helper';
+    public static FURNITURE_DICE                                = 'dice';
+    public static FURNITURE_BB_SPHERE_LOGIC                     = 'bb_sphere';
+    public static FURNITURE_BB_TILE_LOGIC                       = 'bb_tile';
+    public static FURNITURE_BB_TIMER_LOGIC                      = 'bb_counter';
+    public static FURNITURE_BB_TELEPORT_LOGIC                   = 'bb_tp';
+    public static FURNITURE_BB_GATE_BLUE_LOGIC                  = 'bb_g_b';
+    public static FURNITURE_BB_GATE_GREEN_LOGIC                 = 'bb_g_g';
+    public static FURNITURE_BB_GATE_RED_LOGIC                   = 'bb_g_r';
+    public static FURNITURE_BB_GATE_YELLOW_LOGIC                = 'bb_g_y';
+    public static FURNITURE_BB_SCOREBOARD_BLUE_LOGIC            = 'bb_s_b';
+    public static FURNITURE_BB_SCOREBOARD_GREEN_LOGIC           = 'bb_s_g';
+    public static FURNITURE_BB_SCOREBOARD_RED_LOGIC             = 'bb_s_r';
+    public static FURNITURE_BB_SCOREBOARD_YELLOW_LOGIC          = 'bb_s_y';
+    public static FURNITURE_WIRED_ACTION_CALL_STACKS            = 'wf_act_call_stacks';
+    public static FURNITURE_WIRED_ACTION_CHASE                  = 'wf_act_chase';
+    public static FURNITURE_WIRED_ACTION_FLEE                   = 'wf_act_flee';
+    public static FURNITURE_WIRED_ACTION_TELEPORT_TO            = 'wf_act_teleport_to';
+    public static FURNITURE_WIRED_ACTION_TOGGLE_FURNI_STATE     = 'wf_act_toggle_state';
+    public static FURNITURE_WIRED_ACTION_MOVE_ROTATE            = 'wf_act_move_rotate';
+    public static FURNITURE_WIRED_ACTION_MOVE_TO_DIRECTION      = 'wf_act_move_to_dir';
+    public static FURNITURE_WIRED_ACTION_RESET_TIMERS           = 'wf_act_reset_timers';
+    public static FURNITURE_WIRED_CONDITION_ON_FURNI            = 'wf_cnd_trggrer_on_frn';
+    public static FURNITURE_WIRED_TRIGGER_AT_GIVEN_TIME         = 'wf_trg_at_given_time';
+    public static FURNITURE_WIRED_TRIGGER_BOT_REACHED_AVATAR    = 'wf_trg_bot_reached_avtr';
+    public static FURNITURE_WIRED_TRIGGER_BOT_REACHED_STUFF     = 'wf_trg_bot_reached_stf';
+    public static FURNITURE_WIRED_TRIGGER_COLLISION             = 'wf_trg_collision';
+    public static FURNITURE_WIRED_TRIGGER_ENTER_ROOM            = 'wf_trg_enter_room';
+    public static FURNITURE_WIRED_TRIGGER_GAME_ENDS             = 'wf_trg_game_ends';
+    public static FURNITURE_WIRED_TRIGGER_GAME_STARTS           = 'wf_trg_game_starts';
+    public static FURNITURE_WIRED_TRIGGER_PERIODICALLY_LONG     = 'wf_trg_period_long';
+    public static FURNITURE_WIRED_TRIGGER_PERIODICALLY          = 'wf_trg_periodically';
+    public static FURNITURE_WIRED_TRIGGER_SAYS_SOMETHING        = 'wf_trg_says_something';
+    public static FURNITURE_WIRED_TRIGGER_SCORE_ACHIEVED        = 'wf_trg_score_achieved';
+    public static FURNITURE_WIRED_TRIGGER_STATE_CHANGED         = 'wf_trg_state_changed';
+    public static FURNITURE_WIRED_TRIGGER_WALKS_OFF_FURNI       = 'wf_trg_walks_off_furni';
+    public static FURNITURE_WIRED_TRIGGER_WALKS_ON_FURNI        = 'wf_trg_walks_on_furni';
+}

@@ -1,0 +1,14 @@
+dist
+public
+ssl
+node_modules
+.git
+.vscode
+.DS_Store
+Thumbs.db
+public/camera/thumbnails/*.png
+public/camera/*.png
+ssl/*
+dbconfig.json
+.env
+*.zip
